@@ -9,7 +9,10 @@ Here's how the original web page looked on desktop:
 
 ![seerbit-landing-pg](https://user-images.githubusercontent.com/70877999/166109079-26633636-542d-424b-a2dd-36f5d19a550c.png)
 
-...on mobile:
+
+.....on mobile:
+
+
 ![seerbit-landing-pg-mobile](https://user-images.githubusercontent.com/70877999/166109110-3b87cc24-18b9-4e1c-8039-06940f3690e0.png)
 
 
