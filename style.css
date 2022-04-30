@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.container {
+    margin: 0 3rem;
+    width: 100%;
+    position: absolute;
+    display: flex;
+}
+
+.main-content-area {
+    width: 70%;
+}
+
+.logo {
+    margin: 3rem 0;
+    width: 150px;
+}
+.logo img {
+    width: 100%;
+}
+
+.form-area {
+    width: 300px;
+    margin: 8rem auto;
+    margin-bottom: 0;
+    
+}
+
+form {
+    width: 100%;
+
+}
+
+.form-input {
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
+    border: 1px solid #6c757d;
+}
+form button {
+    width: 100%;
+    height: 3rem;
+    font-size: 14px;
+    color: white;
+    border: 1px solid #2c2c2d;
+    background-color: #2c2c2d;
+    border-radius: 5%;
+    outline: 0;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: red;
+}
+
+
+.side-content-area {
+    width: 30%;
+    margin-top: -1rem;
+    padding-top: 3rem;
+    padding: 1rem;
+    background-color: rgba(108, 117, 125, 0.3);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-content-area h2 {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.side-content-area p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.side-content-area a {
+    width: 150px;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #343a40;
+    background-color: white;
+    display: block;
+    border: 1px solid #343a40;
+    border-radius: 5%;
+    align-self: center;
+}
+
+.image-box {
+    width: 95%;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-box img {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .main-content-area {
+        width: 100%;
+    }
+    .side-content-area {
+        display: none;
+    }
+}
